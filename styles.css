@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+  float: left;
+  margin: 30px;
+  background-image: linear-gradient(to top, #1c1c1d 0%, #414247 100%);
+}
+
+.right {
+  float: left;
+  margin: 30px;
+}
+
+img {
+  display: block;
+  margin: 10px auto 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+.name {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.summary {
+  color: #fff;
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 0 6px;
+  text-align: justify;
+  font-weight: 700;
+}
+
+.experience,
+.education {
+  color: #000;
+  margin: 0px auto 10px;
+}
+
+.dates {
+  margin: 2px auto 2px;
+  text-decoration: underline;
+}
+
+h4 {
+  margin: 2px auto 2px;
+}
+
+.data {
+  line-height: 1.5;
+  color: #fff;
+  padding: 0 6px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 13px;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+a {
+  font-size: 13px;
+  color: #2c7eea;
+}
+
+.languages,
+label,
+progress {
+  padding: 0 4px;
+  font-size: 13px;
+}
+
+footer {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #2c7eea;
+  margin: 20px auto;
+  font-size: 20px;
+}

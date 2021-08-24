@@ -19,9 +19,7 @@
 
 img {
   display: block;
-  margin: 10px auto 12px;
-  border: none;
-  border-radius: 4px;
+  margin: 7px auto 12px;
 }
 
 .name {
@@ -34,11 +32,11 @@ img {
 .summary {
   color: #fff;
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   padding: 0 6px;
-  text-align: justify;
-  font-weight: 700;
+  text-align: center;
+  font-style: italic;
 }
 
 .experience,
@@ -52,8 +50,13 @@ img {
   text-decoration: underline;
 }
 
+h3,
 h4 {
   margin: 2px auto 2px;
+}
+
+h5 {
+  font-size: 15px;
 }
 
 .data {
@@ -63,8 +66,12 @@ h4 {
   margin-top: 0;
 }
 
+.date {
+  text-decoration: underline;
+}
+
 p {
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 2px;
   line-height: 1.5;
 }
@@ -77,14 +84,17 @@ a {
 .languages,
 label,
 progress {
-  padding: 0 4px;
-  font-size: 13px;
+  font-size: 15px;
+}
+
+i {
+  margin-right: 8px;
 }
 
 footer {
   font-family: "Space Mono", monospace;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1;
 }
 
